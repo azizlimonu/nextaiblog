@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Ad1 from "/public/assets/ad-1.jpg";
+import SocialLinks from "./SocialLinks";
 
 type Props = {};
 
@@ -9,7 +10,7 @@ const Navbar = (props: Props) => {
     <header className="mb-5">
       <nav className="flex justify-between items-center w-full bg-wh-900 text-wh-10 px-10 py-4">
         <div className="hidden sm:block">
-          {/* Social Links */}
+          <SocialLinks />
         </div>
 
         <div className="flex justify-between items-cebter gap-10">
