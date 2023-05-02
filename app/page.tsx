@@ -1,19 +1,19 @@
 import Image from 'next/image'
 import Trending from './(home)/Trending'
 import Tech from './(home)/Tech'
+import Travel from './(home)/Travel'
+import Other from './(home)/Other'
 
 export default function Home() {
   return (
     <main className='px-10 leading-7'>
-      {/* Trending */}
       <Trending />
 
       <div className='md:flex gap-10 mb-5'>
-        {/* Tech Post */}
         <Tech />
-        {/* Travel Post */}
-        {/* Other Post */}
-
+        <Travel />
+        <Other />
+        
         <div className='hidden md:block'>
           {/* Subscirbe */}
         </div>
